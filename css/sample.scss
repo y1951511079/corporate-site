@@ -459,11 +459,11 @@ h1{
 //news-release.html
 
 
+
 #sub_cover {
     padding: 40px 0;
     background-image: url(../images/news/sub_cover.jpg);
     background-size: cover;
-    height:100px;
     
    display: flex;
 	align-items: center;
@@ -479,16 +479,20 @@ h1{
     font-weight: bold;
     margin: 0;
     letter-spacing: 0.2rem;
+    padding: 0;
+    line-height:20px;
     
 }
 
 @media (min-width: 550px){
 #sub_cover {
-    padding: 40px 0;
+    padding: 80px 0;
     background-image: url(../images/news/sub_cover.jpg);
     background-size: cover;
-    height:200px;
   }
+#sub_cover h2{
+    line-height:40px;
+}
 }
 
 
@@ -507,12 +511,16 @@ h1{
     
 }
 
+.nine.columns {
+   padding-right: 20px;
+}
 
 .news_li {
   
     list-style-type: none;
     list-style-position: outside;
     margin-bottom: 10px;
+    padding-bottom: 5px;
     display: block;
 }
 .news_li span {
@@ -541,6 +549,11 @@ h1{
     font-size: 20px;
     font-size: 2rem;
     padding-bottom: 20px;
+}
+
+#sidebar.three.columns {
+  padding-bottom:20px;
+  padding-right:0;
 }
 }
 
