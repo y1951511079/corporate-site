@@ -334,5 +334,12 @@ h1 {
 @media screen and (max-width: 549px) {
   .pc_sidemenu {
     display: none; } }
+#contents #main th, #contents #main td {
+  padding: 20px 0;
+  color: #626262;
+  font-size: 14px;
+  font-size: 1.4rem; }
+#contents #main th {
+  padding-right: 20px; }
 
 /*# sourceMappingURL=sample.css.map */

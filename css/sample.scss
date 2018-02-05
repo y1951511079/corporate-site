@@ -583,3 +583,15 @@ h1{
 @media screen and (max-width: 549px){
 .pc_sidemenu { display: none;}
 }
+
+#contents #main {
+  th, td {
+    padding: 20px 0;
+    color: #626262;
+    font-size: 14px;
+    font-size: 1.4rem;
+  }
+  th {
+    padding-right: 20px;
+  }
+}
