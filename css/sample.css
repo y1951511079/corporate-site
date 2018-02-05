@@ -250,8 +250,8 @@ h1 {
 
 #sub_cover h2 {
   color: white;
-  font-size: 32px;
-  font-size: 3.2rem;
+  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: bold;
   margin: 0;
   letter-spacing: 0.2rem;
@@ -265,7 +265,8 @@ h1 {
     background-size: cover; }
 
   #sub_cover h2 {
-    line-height: 40px; } }
+    line-height: 40px;
+    font-size: 32px; } }
 #contents {
   padding-top: 20px; }
 
@@ -293,7 +294,8 @@ h1 {
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.6;
   margin-right: 10px;
-  text-align: left; }
+  text-align: left;
+  font-weight: bold; }
 
 @media (min-width: 550px) {
   .news_li {
